@@ -11,3 +11,22 @@ for (var i = 1; i <= 196; i++) {
             break;
     }
 }
+
+var n = 0;
+$(".box").click(function() {
+    switch(n) {
+        case 0:
+            $(this).addClass("clicked");
+            n = 1;
+            break;
+        case 1:
+            $(this).removeClass("clicked");
+            n = 0;
+            break;
+    }
+})
+
+
+// $(".box").click(function() {
+//     $(this).addClass("clicked");
+// });
