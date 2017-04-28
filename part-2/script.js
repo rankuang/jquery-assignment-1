@@ -14,11 +14,12 @@ for (var i = 1; i <= 196; i++) {
 
 
 $(".box").click(function() {
-    if($(this).hasClass("clicked")) {
-        $(this).removeClass("clicked");
-    } else {
-        $(this).addClass("clicked");
-    }
+    // if($(this).hasClass("clicked")) {
+    //     $(this).removeClass("clicked");
+    // } else {
+    //     $(this).addClass("clicked");
+    // }
+    $(this).toggleClass("clicked");
 })
 
 
